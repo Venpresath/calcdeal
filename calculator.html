@@ -1,0 +1,14 @@
+<div class="container">
+
+        <div class="input">
+            <input type="text" ng-model="fieldOne">
+            <input type="text" ng-model="fieldTwo">
+        </div>
+
+        <span class="output">{{ $ctrl.answer }}</span>
+
+        <div class="math">
+            <button ng-click="$ctrl.calcAdd(fieldOne, fieldTwo)">Add</button>
+            <button ng-click="$ctrl.calcMult(fieldOne, fieldTwo)">Multiply</button>
+        </div>
+    </div>
